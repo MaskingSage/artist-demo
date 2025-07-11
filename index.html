@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Artist Demo | Effiong Wisdom</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    *{margin:0;padding:0;box-sizing:border-box;font-family:'Inter',sans-serif;}
+    body{background:#0d0d0d;color:#fdfdfd;line-height:1.6;}
+    header{height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:0 2rem;background:linear-gradient(145deg,#111,#1a1a1a);}
+    header h1{font-size:3rem;letter-spacing:1px;}
+    header p{font-size:1.2rem;margin-top:0.5rem;color:#bbbbbb;}
+    .cta-btn{margin-top:1.5rem;padding:0.75rem 1.5rem;border-radius:9999px;background:#ff006e;color:#fff;font-weight:700;text-decoration:none;transition:transform 0.2s ease;}
+    .cta-btn:hover{transform:scale(1.05);}
+    section{padding:4rem 2rem;max-width:1000px;margin:auto;}
+    .section-title{font-size:2rem;margin-bottom:1rem;text-align:center;}
+    .audio-player{display:flex;justify-content:center;margin-top:2rem;}
+    audio{width:100%;max-width:400px;}
+    .shows ul{list-style:none;margin-top:1rem;}
+    .shows li{padding:0.5rem 0;border-bottom:1px solid #333;}
+    .contact{display:flex;justify-content:center;margin-top:2rem;}
+    .contact a{margin:0 0.5rem;color:#ff006e;text-decoration:none;transition:opacity 0.2s;}
+    .contact a:hover{opacity:0.8;}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>SageePov</h1>
+    <p>Afrobeats &amp; Soul Artist</p>
+    <a href="https://open.spotify.com/artist/0x6jPWOcEP4aSx2kpWjoWV?si=kYJplOvbT9aPVRQqLvhrXQ" class="cta-btn">Listen Now</a>
+  </header>
+
+  <section id="music">
+    <h2 class="section-title">Latest Release</h2>
+    <div class="audio-player">
+      <audio controls>
+        <source src="Sage In Space.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+    </div>
+  </section>
+
+  <section class="shows">
+    <h2 class="section-title">Upcoming Shows</h2>
+    <ul>
+      <li>July 25 — Lagos, The New Afrika Shrine</li>
+      <li>August 10 — Abuja, The Dome</li>
+      <li>August 30 — Port Harcourt, Azny Place</li>
+    </ul>
+  </section>
+
+  <section class="about">
+    <h2 class="section-title">About Effiong</h2>
+    <p>SageePov blends vibrant Afrobeats rhythms with soulful melodies. His music tells stories of love, hustle, and hope in modern Nigeria.</p>
+  </section>
+
+  <section class="contact">
+    <h2 class="section-title">Connect</h2>
+    <a href="https://instagram.com/sageepov" target="_blank">Instagram</a>
+    <a href="https://twitter.com/sageepov" target="_blank">Twitter/X</a>
+    <a href="mailto:wisdomeffiong51@gmail.com">Email</a>
+  </section>
+</body>
+</html>
